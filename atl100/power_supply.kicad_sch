@@ -1,0 +1,17 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "51958e9c-2da1-4c20-b7a0-faf902ed8cae")
+	(paper "A4")
+	(title_block
+		(title "ATL100 (Multiparametric Station)")
+		(date "2024-07-01")
+		(rev "v0.1.0-alpha")
+		(company "AgroTechLab (Laboratório de Desenvolvimento de Tecnologias para o Agrongócio)")
+		(comment 1 "IFSC/Lages (Instituto Federal de Santa Catarina)")
+		(comment 2 "Confidential (access prohibited without signing a non-disclosure agreement)")
+		(comment 3 "Author: Robson Costa (robson.costa@ifsc.edu.br)")
+	)
+	(lib_symbols)
+)

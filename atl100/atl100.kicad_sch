@@ -1,0 +1,251 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "9f25808e-b525-4dd9-b9a0-a085d29b6aa9")
+	(paper "A4")
+	(title_block
+		(title "ATL100 (Multiparametric Station)")
+		(date "2024-07-01")
+		(rev "v0.1.0-alpha")
+		(company "AgroTechLab (Laboratório de Desenvolvimento de Tecnologias para o Agrongócio)")
+		(comment 1 "IFSC/Lages (Instituto Federal de Santa Catarina)")
+		(comment 2 "Confidential (access prohibited without signing a non-disclosure agreement)")
+		(comment 3 "Author: Robson Costa (robson.costa@ifsc.edu.br)")
+		(comment 4 "Total Supply Current: ??mA (??mA)")
+	)
+	(lib_symbols)
+	(sheet
+		(at 218.44 138.43)
+		(size 12.7 7.62)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5530bead-de7e-46b4-9349-e7c1c0b65175")
+		(property "Sheetname" "Analog Inputs"
+			(at 218.44 137.7184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "analog_inputs.kicad_sch"
+			(at 218.44 146.6346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "atl100"
+				(path "/9f25808e-b525-4dd9-b9a0-a085d29b6aa9"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 218.44 153.67)
+		(size 12.7 7.62)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5eee3128-738f-4795-8fa6-4ed10161563c")
+		(property "Sheetname" "Digital Inputs"
+			(at 218.44 152.9584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "digital_inputs.kicad_sch"
+			(at 218.44 161.8746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "atl100"
+				(path "/9f25808e-b525-4dd9-b9a0-a085d29b6aa9"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 179.07 138.43)
+		(size 12.7 7.62)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e8e08cdc-edd7-4fb4-921c-3cc828512609")
+		(property "Sheetname" "RS-485"
+			(at 179.07 137.7184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "rs485.kicad_sch"
+			(at 179.07 146.6346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "atl100"
+				(path "/9f25808e-b525-4dd9-b9a0-a085d29b6aa9"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 179.07 153.67)
+		(size 12.7 7.62)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "eaaf634d-252e-431d-b15b-fb2b1eecc847")
+		(property "Sheetname" "Power Supply"
+			(at 179.07 152.9584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power_supply.kicad_sch"
+			(at 179.07 161.8746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "atl100"
+				(path "/9f25808e-b525-4dd9-b9a0-a085d29b6aa9"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 256.54 153.67)
+		(size 12.7 7.62)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f3eb8053-dba3-4ef9-9b33-ec72aa3624a7")
+		(property "Sheetname" "mPCIe"
+			(at 256.54 152.9584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mpcie.kicad_sch"
+			(at 256.54 161.8746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "atl100"
+				(path "/9f25808e-b525-4dd9-b9a0-a085d29b6aa9"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 256.54 139.7)
+		(size 12.7 7.62)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f4015ec4-291b-42dc-92bb-09c8eb2ad1c1")
+		(property "Sheetname" "Terminals"
+			(at 256.54 138.9884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "terminals.kicad_sch"
+			(at 256.54 147.9046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "atl100"
+				(path "/9f25808e-b525-4dd9-b9a0-a085d29b6aa9"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
