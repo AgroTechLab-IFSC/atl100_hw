@@ -5,8 +5,8 @@
 	(uuid "9f25808e-b525-4dd9-b9a0-a085d29b6aa9")
 	(paper "A4")
 	(title_block
-		(title "ATL100 (Multiparametric Station)")
-		(date "2024-07-01")
+		(title "ATL100 (Multiparametric Station) - THT Based")
+		(date "2024-09-06")
 		(rev "v0.1.0-alpha")
 		(company "AgroTechLab (Laboratório de Desenvolvimento de Tecnologias para o Agrongócio)")
 		(comment 1 "IFSC/Lages (Instituto Federal de Santa Catarina)")
@@ -15,46 +15,47 @@
 		(comment 4 "Total Supply Current: ??mA (??mA)")
 	)
 	(lib_symbols)
-	(sheet
-		(at 218.44 138.43)
-		(size 12.7 7.62)
-		(fields_autoplaced yes)
+	(rectangle
+		(start 31.115 34.29)
+		(end 106.68 72.39)
 		(stroke
-			(width 0.1524)
-			(type solid)
+			(width 0)
+			(type dash)
+			(color 9 23 255 1)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(type none)
 		)
-		(uuid "5530bead-de7e-46b4-9349-e7c1c0b65175")
-		(property "Sheetname" "Analog Inputs"
-			(at 218.44 137.7184 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
+		(uuid e18e737f-4429-489d-80c4-12db1dc459d9)
+	)
+	(text "Components Format: THT\n\nInternal Modules:\n   - MCU (ESP32-S3)\n   - XL4005 (Voltage Regulator - Step Down)\n   - Voltage Sensor (power supply voltage)\n   - HD-38 (soil moisture)\n   - HW-519 (RS-485)\n   - RGB LED\n\nExternal Modules:\n   - BME-280 (air temperature, air humidity, atmospherical pressure)\n   - Pluviometer (rain amount)\n   - Anemometer (wind speed)\n   - Windsock (wind direction)\n   - ADC 4mA - 20mA (4x ports)"
+		(exclude_from_sim no)
+		(at 32.512 70.358 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 9 23 255 1)
 			)
+			(justify left bottom)
 		)
-		(property "Sheetfile" "analog_inputs.kicad_sch"
-			(at 218.44 146.6346 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
+		(uuid "bbaaf6d0-505b-4577-bd1c-8781cc0ae7f3")
+	)
+	(text "ATL-100 (Multiparametric Station)"
+		(exclude_from_sim no)
+		(at 31.75 36.957 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 9 23 255 1)
 			)
+			(justify left bottom)
 		)
-		(instances
-			(project "atl100"
-				(path "/9f25808e-b525-4dd9-b9a0-a085d29b6aa9"
-					(page "4")
-				)
-			)
-		)
+		(uuid "d87250de-b4f5-483b-a33c-49e998cf6508")
 	)
 	(sheet
-		(at 218.44 153.67)
+		(at 197.485 153.67)
 		(size 12.7 7.62)
 		(fields_autoplaced yes)
 		(stroke
@@ -64,9 +65,9 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "5eee3128-738f-4795-8fa6-4ed10161563c")
-		(property "Sheetname" "Digital Inputs"
-			(at 218.44 152.9584 0)
+		(uuid "8a01954d-e024-4ee7-97b8-27d2535202d8")
+		(property "Sheetname" "Modules"
+			(at 197.485 152.9584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -74,55 +75,18 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "digital_inputs.kicad_sch"
-			(at 218.44 161.8746 0)
+		(property "Sheetfile" "atl100_modules.kicad_sch"
+			(at 197.485 161.8746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
 			)
 		)
 		(instances
-			(project "atl100"
-				(path "/9f25808e-b525-4dd9-b9a0-a085d29b6aa9"
-					(page "3")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 179.07 138.43)
-		(size 12.7 7.62)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "e8e08cdc-edd7-4fb4-921c-3cc828512609")
-		(property "Sheetname" "RS-485"
-			(at 179.07 137.7184 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "rs485.kicad_sch"
-			(at 179.07 146.6346 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "atl100"
+			(project "atl100_tht"
 				(path "/9f25808e-b525-4dd9-b9a0-a085d29b6aa9"
 					(page "5")
 				)
@@ -130,7 +94,46 @@
 		)
 	)
 	(sheet
-		(at 179.07 153.67)
+		(at 197.3673 139.0856)
+		(size 12.7 7.62)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ea779f4c-b22e-42c2-a3f6-afd5ab6081d2")
+		(property "Sheetname" "MCU"
+			(at 197.3673 138.374 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "atl100_mcu.kicad_sch"
+			(at 197.3673 147.2902 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "atl100_tht"
+				(path "/9f25808e-b525-4dd9-b9a0-a085d29b6aa9"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 177.8 139.065)
 		(size 12.7 7.62)
 		(fields_autoplaced yes)
 		(stroke
@@ -142,7 +145,7 @@
 		)
 		(uuid "eaaf634d-252e-431d-b15b-fb2b1eecc847")
 		(property "Sheetname" "Power Supply"
-			(at 179.07 152.9584 0)
+			(at 177.8 138.3534 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -150,63 +153,26 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "power_supply.kicad_sch"
-			(at 179.07 161.8746 0)
+		(property "Sheetfile" "atl100_power_supply.kicad_sch"
+			(at 177.8 147.2696 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
 			)
 		)
 		(instances
-			(project "atl100"
+			(project "atl100_tht"
 				(path "/9f25808e-b525-4dd9-b9a0-a085d29b6aa9"
-					(page "2")
+					(page "3")
 				)
 			)
 		)
 	)
 	(sheet
-		(at 256.54 153.67)
-		(size 12.7 7.62)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "f3eb8053-dba3-4ef9-9b33-ec72aa3624a7")
-		(property "Sheetname" "mPCIe"
-			(at 256.54 152.9584 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "mpcie.kicad_sch"
-			(at 256.54 161.8746 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "atl100"
-				(path "/9f25808e-b525-4dd9-b9a0-a085d29b6aa9"
-					(page "6")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 256.54 139.7)
+		(at 177.8 153.67)
 		(size 12.7 7.62)
 		(fields_autoplaced yes)
 		(stroke
@@ -218,7 +184,7 @@
 		)
 		(uuid "f4015ec4-291b-42dc-92bb-09c8eb2ad1c1")
 		(property "Sheetname" "Terminals"
-			(at 256.54 138.9884 0)
+			(at 177.8 152.9584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -226,19 +192,20 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "terminals.kicad_sch"
-			(at 256.54 147.9046 0)
+		(property "Sheetfile" "atl100_terminals.kicad_sch"
+			(at 177.8 161.8746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
 			)
 		)
 		(instances
-			(project "atl100"
+			(project "atl100_tht"
 				(path "/9f25808e-b525-4dd9-b9a0-a085d29b6aa9"
-					(page "7")
+					(page "2")
 				)
 			)
 		)

@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "AgroTechLab")(type "KiCad")(uri "C:/AgroTechLab/Tools/kicad_lib/AgroTechLab.kicad_sym")(options "")(descr "AgroTechLab KiCAD library"))
+)

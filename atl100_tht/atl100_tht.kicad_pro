@@ -224,7 +224,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
       "simulation_model_issue": "ignore",
@@ -239,7 +239,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "atl100.kicad_pro",
+    "filename": "atl100_tht.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -407,6 +407,14 @@
       "version": 1
     },
     "net_format_name": "",
+    "ngspice": {
+      "fix_include_paths": true,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 4,
+      "workbook_filename": ""
+    },
     "page_layout_descr_file": "",
     "plot_directory": "",
     "spice_current_sheet_as_root": false,
@@ -424,28 +432,20 @@
       "Root"
     ],
     [
+      "f4015ec4-291b-42dc-92bb-09c8eb2ad1c1",
+      "Terminals"
+    ],
+    [
       "eaaf634d-252e-431d-b15b-fb2b1eecc847",
       "Power Supply"
     ],
     [
-      "5eee3128-738f-4795-8fa6-4ed10161563c",
-      "Digital Inputs"
+      "ea779f4c-b22e-42c2-a3f6-afd5ab6081d2",
+      "MCU"
     ],
     [
-      "5530bead-de7e-46b4-9349-e7c1c0b65175",
-      "Analog Inputs"
-    ],
-    [
-      "e8e08cdc-edd7-4fb4-921c-3cc828512609",
-      "RS-485"
-    ],
-    [
-      "f3eb8053-dba3-4ef9-9b33-ec72aa3624a7",
-      "mPCIe"
-    ],
-    [
-      "f4015ec4-291b-42dc-92bb-09c8eb2ad1c1",
-      "Terminals"
+      "8a01954d-e024-4ee7-97b8-27d2535202d8",
+      "Modules"
     ]
   ],
   "text_variables": {}
