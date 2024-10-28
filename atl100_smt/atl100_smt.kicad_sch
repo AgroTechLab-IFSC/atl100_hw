@@ -1,0 +1,174 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "b692695d-599f-4b93-9d17-f50ae19b6591")
+	(paper "A4")
+	(title_block
+		(title "ATL-100 (Multiparametric Station) - SMT Based")
+		(date "2024-09-06")
+		(rev "v0.1.0-alpha")
+		(company "AgroTechLab (Laboratório de Desenvolvimento de Tecnologias para o Agronegócio)")
+		(comment 1 "IFSC/Lages (Instituto Federal de Santa Catarina)")
+		(comment 2 "Confidential (access prohibited without signing a non-disclouser agreement)")
+		(comment 3 "Author: Robson Costa (robson.costa@ifsc.edu.br)")
+		(comment 4 "Total Supply Current: ??mA")
+	)
+	(lib_symbols)
+	(rectangle
+		(start 42.545 34.29)
+		(end 104.775 75.565)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid e15bacb8-03df-4350-9682-4b8ea6a1c9db)
+	)
+	(text "Components Format: SMT\nInterfaces List:"
+		(exclude_from_sim no)
+		(at 56.134 42.164 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "0178ba1c-0c75-4c18-8cb0-8a2e24b0405b")
+	)
+	(text "ATL-100 (Multiparametric Station)"
+		(exclude_from_sim no)
+		(at 64.008 37.592 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.3048)
+				(bold yes)
+			)
+		)
+		(uuid "9375022a-da94-4e6b-9c41-95ab4a69fbdb")
+	)
+	(sheet
+		(at 177.8 149.225)
+		(size 12.7 7.62)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "4731d0f0-dff5-469d-a6ab-14358bbc267c")
+		(property "Sheetname" "Power Supply"
+			(at 177.8 148.5134 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "atl100_power_supply.kicad_sch"
+			(at 177.8 157.4296 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "atl100_smt"
+				(path "/b692695d-599f-4b93-9d17-f50ae19b6591"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 195.58 149.225)
+		(size 12.7 7.62)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "938cd658-f942-48a6-a0ff-d4527d031528")
+		(property "Sheetname" "MCU"
+			(at 195.58 148.5134 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "atl100_mcu.kicad_sch"
+			(at 195.58 157.4296 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "atl100_smt"
+				(path "/b692695d-599f-4b93-9d17-f50ae19b6591"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 211.455 149.225)
+		(size 12.7 7.62)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "bfd15f74-a76e-4b89-842b-d37d0bf64683")
+		(property "Sheetname" "Peripherals"
+			(at 211.455 148.5134 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "atl100_peripherals.kicad_sch"
+			(at 211.455 157.4296 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "atl100_smt"
+				(path "/b692695d-599f-4b93-9d17-f50ae19b6591"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

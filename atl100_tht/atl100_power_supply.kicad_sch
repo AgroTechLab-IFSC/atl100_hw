@@ -6,13 +6,13 @@
 	(paper "A4")
 	(title_block
 		(title "ATL100 (Multiparametric Station) - THT Based")
-		(date "2024-09-06")
-		(rev "v0.1.0-alpha")
+		(date "2024-10-27")
+		(rev "v1.0.0")
 		(company "AgroTechLab (Laboratório de Desenvolvimento de Tecnologias para o Agrongócio)")
 		(comment 1 "IFSC/Lages (Instituto Federal de Santa Catarina)")
 		(comment 2 "Confidential (access prohibited without signing a non-disclosure agreement)")
 		(comment 3 "Author: Robson Costa (robson.costa@ifsc.edu.br)")
-		(comment 4 "Power Supply (Max. Supply Current: ?? mA)")
+		(comment 4 "Power Supply (Max. Supply Current: 2.5 A)")
 	)
 	(lib_symbols
 		(symbol "AgroTechLab:XL4005_Module"
@@ -724,7 +724,7 @@
 		)
 		(uuid "5359474c-7ef3-40de-8ede-ebe3e5bb23bf")
 	)
-	(text "Input: +5V ~ +30V (DC)\nOutput: +0,8V ~ +24V (DC) - adjustable\nCurrent: +2,5A / +5A (with heat sink)\nConversion efficiency: >90%\nSwitching Frequency: 300kHz\nMaximum Output Power: 80W\nMaximum Voltage Fluctuation: ±30mV"
+	(text "Input: +5V ~ +30V (DC)\nOutput: +0,8V ~ +24V (DC) - adjustable\nCurrent: +2.5A / +5A (with heat sink)\nConversion efficiency: >90%\nSwitching Frequency: 300kHz\nMaximum Output Power: 80W\nMaximum Voltage Fluctuation: ±30mV"
 		(exclude_from_sim no)
 		(at 14.478 30.734 0)
 		(effects
@@ -869,7 +869,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1231bd49-0dff-4291-8ec2-ffff699d17d2")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR09"
 			(at 133.35 97.79 0)
 			(effects
 				(font
@@ -919,7 +919,7 @@
 		(instances
 			(project "atl100_tht"
 				(path "/9f25808e-b525-4dd9-b9a0-a085d29b6aa9/eaaf634d-252e-431d-b15b-fb2b1eecc847"
-					(reference "#PWR06")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -977,6 +977,42 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "OEM"
+			(at 107.95 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "XL4005"
+			(at 107.95 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 107.95 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 107.95 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "dd76f39c-d418-4e22-87a5-8263a1048aac")
 		)
@@ -999,6 +1035,216 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 184.15 93.98 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9712b706-15c3-4672-ba6a-0ed8d18c8a99")
+		(property "Reference" "R4"
+			(at 182.626 96.266 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 182.118 98.298 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 184.15 92.202 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 184.15 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Metal Film Resistor, 10kΩ, 1%, 1/2W"
+			(at 184.15 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Std"
+			(at 184.15 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "Std"
+			(at 184.15 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 184.15 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 184.15 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3d877628-1924-4bfe-8d9a-54d72d1f7e8c")
+		)
+		(pin "1"
+			(uuid "3cff6978-f54b-4553-94b5-73a748a08b58")
+		)
+		(instances
+			(project "atl100_tht"
+				(path "/9f25808e-b525-4dd9-b9a0-a085d29b6aa9/eaaf634d-252e-431d-b15b-fb2b1eecc847"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 184.15 102.87 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c8fb7a66-e27f-4f20-a7be-1759d5989dc6")
+		(property "Reference" "R5"
+			(at 182.626 105.156 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1.2k"
+			(at 182.118 107.188 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 184.15 101.092 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 184.15 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Metal Film Resistor, 1.2kΩ, 1%, 1/2W"
+			(at 184.15 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Std"
+			(at 184.15 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "Std"
+			(at 184.15 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 184.15 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 184.15 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "649db6e1-7d0e-403d-9981-f06f9edb0f12")
+		)
+		(pin "1"
+			(uuid "f020b2db-33ad-4ba7-a273-e82c73404fb7")
+		)
+		(instances
+			(project "atl100_tht"
+				(path "/9f25808e-b525-4dd9-b9a0-a085d29b6aa9/eaaf634d-252e-431d-b15b-fb2b1eecc847"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 133.35 102.87 0)
 		(unit 1)
@@ -1007,7 +1253,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dfa1fe34-c436-4a58-9548-0bc2f608ed6a")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR010"
 			(at 133.35 109.22 0)
 			(effects
 				(font
@@ -1057,145 +1303,7 @@
 		(instances
 			(project "atl100_tht"
 				(path "/9f25808e-b525-4dd9-b9a0-a085d29b6aa9/eaaf634d-252e-431d-b15b-fb2b1eecc847"
-					(reference "#PWR07")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 184.15 93.98 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f24fbc56-1941-49b1-b8e2-41daa6eb88e6")
-		(property "Reference" "R1"
-			(at 182.88 96.266 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 182.372 98.044 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 184.15 92.202 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 184.15 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 184.15 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "2a40f7b5-f77b-49e4-ad43-8269cc60f505")
-		)
-		(pin "1"
-			(uuid "e158007b-5140-4fd9-afd0-e3367629c442")
-		)
-		(instances
-			(project "atl100_tht"
-				(path "/9f25808e-b525-4dd9-b9a0-a085d29b6aa9/eaaf634d-252e-431d-b15b-fb2b1eecc847"
-					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 184.15 102.87 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f83c7549-9849-4fa8-bf83-e52b5bb92d46")
-		(property "Reference" "R2"
-			(at 182.88 105.156 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1k2"
-			(at 182.372 106.934 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 184.15 101.092 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 184.15 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 184.15 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "fe1915ed-6890-45d0-a62a-6ef3b18b0588")
-		)
-		(pin "1"
-			(uuid "2c2038b5-8f39-4e98-b482-902e58ebc253")
-		)
-		(instances
-			(project "atl100_tht"
-				(path "/9f25808e-b525-4dd9-b9a0-a085d29b6aa9/eaaf634d-252e-431d-b15b-fb2b1eecc847"
-					(reference "R2")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
