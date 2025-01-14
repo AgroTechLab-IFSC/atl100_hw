@@ -17480,7 +17480,7 @@
 		(layer "Edge.Cuts")
 		(uuid "4e5cb8a6-1d29-4a49-ba92-3a15eaf38727")
 	)
-	(gr_text "ATL-100 v1.0.0"
+	(gr_text "ATL-100 v0.1.0"
 		(at 135.11 55.53 0)
 		(layer "F.SilkS")
 		(uuid "f932afdd-5928-4cad-8b0d-2a9bfd8cb8ab")

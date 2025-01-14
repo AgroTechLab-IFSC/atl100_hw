@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "ATL100 (Multiparametric Station) - THT Based")
-		(date "2024-10-29")
-		(rev "v1.0.0")
+		(date "2025-01-14")
+		(rev "v0.1.0")
 		(company "AgroTechLab (Laboratório de Desenvolvimento de Tecnologias para o Agrongócio)")
 		(comment 1 "IFSC/Lages (Instituto Federal de Santa Catarina)")
 		(comment 2 "Confidential (access prohibited without signing a non-disclosure agreement)")
