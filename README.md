@@ -12,9 +12,9 @@
 ![GitHub License](https://img.shields.io/github/license/agrotechlab-ifsc/atl100_hw)
 ![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/agrotechlab-ifsc/atl100_hw/total)
 
-# ATL100 (Hardware)
+# ATL-100 (Hardware)
 
-**ATL100** is a multiparametric station developed by <a href="https://agrotechlab.lages.ifsc.edu.br">AgroTechLab (*Technology Development 
+**ATL-100** is a multiparametric station developed by <a href="https://agrotechlab.lages.ifsc.edu.br">AgroTechLab (*Technology Development 
 Laboratory for Agribusiness*)</a> of <a href="https://www.ifsc.edu.br">IFSC (*Federal Institute of Santa Catarina*)</a>.
 
 It can be used as meteorological station, agrometeorological station, hydrological station, aquaculture station, tide gauge station or fire monitoring station (forest or urban environment).
@@ -26,7 +26,7 @@ It is based on ESP32-S3 MCU and has two versions:
 
 ## THT (*Through-Hole Technology*)
 
-ATL100 THT version aims to be easy to apply and low cost. For this reason it uses COTS (*Commercial Off-The-Shelf*) hardware.
+ATL-100 THT version aims to be easy to apply and low cost. For this reason it uses COTS (*Commercial Off-The-Shelf*) hardware.
 
 ![SCHEME schematic connection](./atl100_tht/atl100_tht_front_top.png "ATL-100 PCB")<br>
 
