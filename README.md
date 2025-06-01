@@ -1,4 +1,3 @@
-<a href="https://trackgit.com"><img src="https://us-central1-trackgit-analytics.cloudfunctions.net/token/ping/m5wcjz8n092qudmn0q2a" alt="trackgit-views" /></a>
 ![GitHub Release](https://img.shields.io/github/v/release/agrotechlab-ifsc/atl100_hw)
 ![GitHub Tag](https://img.shields.io/github/v/tag/AgroTechLab-IFSC/atl100_hw)
 ![GitHub Platform](https://img.shields.io/badge/Platform-KiCad-blue)
