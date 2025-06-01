@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "AgroTechLab")(type "KiCad")(uri "${KIPRJMOD}/kicad_lib/AgroTechLab.kicad_sym")(options "")(descr ""))
+  (lib (name "AgroTechLabOld")(type "KiCad")(uri "C:/AgroTechLab/BKP/Tools/kicad_lib/AgroTechLab.kicad_sym")(options "")(descr ""))
+)

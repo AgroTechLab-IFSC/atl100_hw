@@ -13,22 +13,55 @@
 
 # ATL-100 (Hardware)
 
-**ATL-100** is a multiparametric station developed by <a href="https://agrotechlab.lages.ifsc.edu.br">AgroTechLab (*Technology Development 
-Laboratory for Agribusiness*)</a> of <a href="https://www.ifsc.edu.br">IFSC (*Federal Institute of Santa Catarina*)</a>.
+**ATL-100** is a multiparametric station developed by <a href="https://agrotechlab.lages.ifsc.edu.br">AgroTechLab (*Agribusiness Technology Development Laboratory*)</a> of <a href="https://www.ifsc.edu.br">IFSC (*Federal Institute of Santa Catarina*)</a>.
 
 It can be used as meteorological station, agrometeorological station, hydrological station, aquaculture station, tide gauge station or fire monitoring station (forest or urban environment).
 
-It is based on ESP32-S3 MCU and has two versions:
+It is a PTH (*Plated-Through-Hole*) project based on the ESP32-S3 MCU that aims to be easy to produce and low cost, so it uses COTS (*Commercial Off-The-Shelf*) hardware.
 
- - THT (*Through-Hole Technology*) - aims to be easy to apply and low cost;
- - SMT (*Surface Mount Technology*) - aims to optimize performance and size;
+## Features
 
-## THT (*Through-Hole Technology*)
+The current version of the ATL-100 has the following features:
 
-ATL-100 THT version aims to be easy to apply and low cost. For this reason it uses COTS (*Commercial Off-The-Shelf*) hardware.
+ - Power Supply (XL4005)
+   - Input: 10V ~ 30V;
+   - Current: 2.5A (typ.) / 5A (max. with heat sink);
+   - Efficiency: 90%
+   - Frequency: 300KHz
+ - Power Supply Sensor
+   - Voltage Divider (30V -> 3.33V);
+ - MCU (ESP32-S3)
+   - RISC 32 bits 240MHz dual-core;
+   - 16Mb Flash;
+   - 512Kb SRAM;
+   - 16Kb SRAM in RTC;
+   - 8Mb PSRAM;
+   - 384Kb ROM;
+ - RS-485 (HW-519)
+   - TTL to RS-485 converter;
+   - Modbus-RTU protocol;
+   - Used to connect HaliSense TH-EC-PH-NPK soil sensor:
+     - Soil temperature (-40 ~ 80 ℃);
+     - Soil moisture (0 ~ 100 %);
+     - Soil electroconductivity (0 ~ 20.000 us/cm);
+     - Soil pH (3 ~ 9 pH);
+     - Soil nitrogen, phosphorus, potassium (1 ~ 1999 mg/Kg or mg/L)
+ - Windsock (voltage drop based);
+ - Anemometer (pulse counter based);
+ - Pluviometer (pulse counter based);
+ - Air sensor (BME-280)
+   - Air Temperature (-40 ~ 85 ℃);
+   - Air Humidity (0 ~ 100 %);
+   - Atmospheric Pressure (300 ~ 1100 hPa);
 
-![SCHEME schematic connection](./atl100_tht/atl100_tht_front_top.png "ATL-100 PCB")<br>
 
-## SMT (*Surface Mount Technology*)
+## 3D Images
+![Image 1](./atl100_board_1.png "3D image 1")
+![Image 2](./atl100_board_2.png "3D image 2")
+![Image 3](./atl100_board_3.png "3D image 3")
 
-Under development yet.
+<br><hr><p style="text-align: center;">All rights reserved. &copy; Since 2020.<br><b><a href="https://agrotechlab.lages.ifsc.edu.br/">AgroTechLab (<i>Agribusiness Technology Development Laboratory</i>)</a></b><br>
+<b><a href="https://ifsc.edu.br/web/campus-lages">IFSC (<i>Federal Institute of Santa Catarina</i>) - Campus Lages</a></b><br>
+225 Heitor Vila Lobos St., São Francisco<br>
+Lages/SC - Brazil<br>
+88506-400</p>
