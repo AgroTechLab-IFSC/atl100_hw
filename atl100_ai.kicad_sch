@@ -5,7 +5,7 @@
 	(uuid "43dddd3b-57c8-4eae-9b2a-fa15278251e9")
 	(paper "A4")
 	(title_block
-		(title "ATL-100 (Multiparametric Station)")
+		(title "ATL-100 (Multiparametric Station) - Main Board")
 		(date "2025-06-01")
 		(rev "v0.2.0")
 		(company "AgroTechLab (Agribusiness Technology Development Laboratory)")

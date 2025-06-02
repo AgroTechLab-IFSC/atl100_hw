@@ -1,5 +1,4 @@
 ![GitHub Release](https://img.shields.io/github/v/release/agrotechlab-ifsc/atl100_hw)
-![GitHub Tag](https://img.shields.io/github/v/tag/AgroTechLab-IFSC/atl100_hw)
 ![GitHub Platform](https://img.shields.io/badge/Platform-KiCad-blue)
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/t/agrotechlab-ifsc/atl100_hw)
 ![GitHub Issues or Pull Requests](https://img.shields.io/github/issues/agrotechlab-ifsc/atl100_hw)
@@ -22,6 +21,8 @@ It is a PTH (*Plated-Through-Hole*) project based on the ESP32-S3 MCU that aims 
 ## Features
 
 The current version of the ATL-100 has the following features:
+
+### Main Board
 
  - Power Supply (XL4005)
    - Input: 10V ~ 30V;
@@ -54,6 +55,10 @@ The current version of the ATL-100 has the following features:
    - Air Humidity (0 ~ 100 %);
    - Atmospheric Pressure (300 ~ 1100 hPa);
 
+### ADC Board
+ - ADC (ADS1115)
+   - 16 bits resolution;
+   - 4 channels (4mA ~ 20mA / 0V ~ 10V);
 
 ## 3D Images
 ![Image 1](./atl100_board_1.png "3D image 1")

@@ -1,4 +1,4 @@
-25241949997738131
+25245466540058559
 AgroTechLab
 ESP32-S3 N16R8
 
@@ -14,6 +14,13 @@ Connector
 7
 7
 AgroTechLab
+Logical Level Converter
+
+
+0
+12
+12
+AgroTechLab
 Logo AgroTechLab
 
 
@@ -27,6 +34,13 @@ Logo CC-BY-SA
 0
 0
 0
+AgroTechLab
+SIM7070G
+
+
+0
+23
+23
 AgroTechLab
 XL4005
 
