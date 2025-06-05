@@ -1,5 +1,9 @@
 # Changelog
 
+## <b>Version 0.2.0 (06/06/2025):</b>
+   - Adjusted PCB size to 100mm x 100mm (production cost reduction);
+   - Removed ADC and created a separate <b>Main Board</b> and <b>ADC Board</b> projects;
+
 ## <b>Version 0.1.0 (14/01/2025):</b>
    - THT project with:
       - Power Supply (XL-4005);

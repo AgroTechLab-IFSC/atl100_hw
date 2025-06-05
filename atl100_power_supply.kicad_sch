@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "ATL-100 (Multiparametric Station) - Main Board")
-		(date "2025-06-02")
+		(date "2025-06-05")
 		(rev "v0.2.0")
 		(company "AgroTechLab (Agribusiness Technology Development Laboratory)")
 		(comment 1 "IFSC (Federal Institute of Santa Catarina)")
@@ -3940,7 +3940,7 @@
 		)
 		(uuid "5d13596e-3679-42e6-a165-278435faa1c5")
 	)
-	(text "MCU max. supply current: ...... 405.3 mA\nRS-485 max. supply current: ...   1.0 mA\nLoRa max. supply current: .....\nLTE max. supply current: ...... 500.0 mA\nADC max. supply current: ......   0.3 mA"
+	(text "MCU max. supply current: ...... 405.3 mA\nRS-485 max. supply current: ...   1.0 mA\nLoRa max. supply current: ..... 120.0 mA\nLTE max. supply current: ...... 500.0 mA\nADC max. supply current: ......   0.3 mA"
 		(exclude_from_sim no)
 		(at 130.302 40.64 0)
 		(effects

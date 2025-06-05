@@ -61,9 +61,8 @@ The current version of the ATL-100 has the following features:
    - 4 channels (4mA ~ 20mA / 0V ~ 10V);
 
 ## 3D Images
-![Image 1](./atl100_board_1.png "3D image 1")
-![Image 2](./atl100_board_2.png "3D image 2")
-![Image 3](./atl100_board_3.png "3D image 3")
+![Image 1](./atl100_1.png "3D image 1")
+![Image 2](./atl100_2.png "3D image 2")
 
 <br><hr><p style="text-align: center;">All rights reserved. &copy; Since 2020.<br><b><a href="https://agrotechlab.lages.ifsc.edu.br/">AgroTechLab (<i>Agribusiness Technology Development Laboratory</i>)</a></b><br>
 <b><a href="https://ifsc.edu.br/web/campus-lages">IFSC (<i>Federal Institute of Santa Catarina</i>) - Campus Lages</a></b><br>

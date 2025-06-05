@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "ATL-100 (Multiparametric Station) - Main Board")
-		(date "2025-06-02")
+		(date "2025-06-05")
 		(rev "v0.2.0")
 		(company "AgroTechLab (Agribusiness Technology Development Laboratory)")
 		(comment 1 "IFSC (Federal Institute of Santa Catarina)")
@@ -30,7 +30,7 @@
 	)
 	(rectangle
 		(start 31.115 34.29)
-		(end 106.68 95.25)
+		(end 106.68 99.06)
 		(stroke
 			(width 0)
 			(type dash)
@@ -67,9 +67,9 @@
 		)
 		(uuid "9375374d-4bd6-4491-ae12-b902cc161a4e")
 	)
-	(text "Internal Modules:\n   - MCU (ESP32-S3)\n   - XL4005 (Voltage Regulator - Step Down)\n   - Voltage Sensor (power supply voltage)\n   - HW-519 (RS-485)\n   - RGB LED\n\nExternal Modules:\n   - BME-280 (I2C port)\n      - Air Temperature (ºC)\n      - Air Humidity (%)\n      - Atmospherical Pressure (mmHg)\n   - Pluviometer (pulse port)\n      - Rain Amount (mm)\n   - Anemometer (pulse port)\n      - Wind Speed (m/sec. or Km/h)\n   - Windsock (ADC port)\n      - Wind Direction (N, NE, E, SE, S, SW, W, NW)\n   - ADC 4mA - 20mA (4x ports)\n   - Soil Sensor (RS-485 port)\n      - Temperature (%)\n      - Moisture (ºC)\n      - PH (index)\n      - Conductivity (µs/cm)\n      - Nitrogen (mg/Kg)\n      - Phosphorus (mg/Kg)\n      - Potassium (mg/Kg)"
+	(text "Internal Modules:\n   - MCU (ESP32-S3)\n   - XL4005 (Voltage Regulator - Step Down)\n   - Voltage Sensor (power supply voltage)\n   - HW-519 (RS-485)\n   - RGB LED\n   - RAK3272S (LoRaWAN module)\n   - SIM7070G (LTE module)\n\nExternal Modules:\n   - BME-280 (I2C port)\n      - Air Temperature (ºC)\n      - Air Humidity (%)\n      - Atmospherical Pressure (mmHg)\n   - Pluviometer (pulse port)\n      - Rain Amount (mm)\n   - Anemometer (pulse port)\n      - Wind Speed (m/sec. or Km/h)\n   - Windsock (ADC port)\n      - Wind Direction (N, NE, E, SE, S, SW, W, NW)\n   - ADC 4mA - 20mA (4x ports)\n   - Soil Sensor (RS-485 port)\n      - Temperature (%)\n      - Moisture (ºC)\n      - PH (index)\n      - Conductivity (µs/cm)\n      - Nitrogen (mg/Kg)\n      - Phosphorus (mg/Kg)\n      - Potassium (mg/Kg)"
 		(exclude_from_sim no)
-		(at 33.528 93.726 0)
+		(at 33.528 97.282 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -120,6 +120,49 @@
 		)
 		(property "Sheetfile" "atl100_lte.kicad_sch"
 			(at 195.58 160.6046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "atl100"
+				(path "/9f25808e-b525-4dd9-b9a0-a085d29b6aa9"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 213.7902 152.4479)
+		(size 12.7 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5308ea08-d52d-4f93-851a-19ba96add5bf")
+		(property "Sheetname" "LoRa"
+			(at 213.7902 151.7363 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "atl100_lora.kicad_sch"
+			(at 213.7902 160.6525 0)
 			(effects
 				(font
 					(size 1.27 1.27)
